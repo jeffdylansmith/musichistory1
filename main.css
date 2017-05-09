@@ -1,0 +1,71 @@
+#nav{
+	background-color: green;
+	width:94%;
+	height:5em;
+	margin-left: 2%;
+	margin-top: 2em;
+	display: flex;
+	align-items: center;
+}
+
+#controls{
+	background-color: red;
+	width:25%;
+	height:24em;
+	margin: 1em;
+	float:left;
+	padding-left: 1em;
+	padding-top: 1em;
+	margin-right: .8em;
+}
+
+#display{
+	background-color: yellow;
+	width:65%;
+	height:25em;
+	float: right;
+	margin: 1em;
+	margin-left: .1em;
+	border: 5px solid black;
+}
+
+#container{
+	display:flex;
+	flex-direction: row;
+}
+.genre{
+	margin:1em;
+}
+
+#genres{
+	justify-content: left;
+	margin:top;
+}
+
+.selectBoxes{
+	margin:1em;
+}
+
+#selectors{
+	padding-left: 2em;
+	margin-top:2em;
+}
+
+#filterbtn{
+	margin-top:1em;
+	margin-left: 35%
+
+}
+
+#nav * {
+	list-style: none;
+	vertical-align: middle;
+	margin-left:.3em;
+	float:left;
+	
+}
+
+
+
+
+
